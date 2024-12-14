@@ -1,0 +1,10 @@
+
+.site{
+    margin-left: 70px;
+}
+.body{
+    display: flex;
+}
+#number{
+    width: 20px;
+}

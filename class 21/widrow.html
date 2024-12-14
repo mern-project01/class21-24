@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../style.css" rel="stylesheet">
+
+    <style>
+        .sec{
+            width: 100%;
+            background-color: rgb(32, 125, 206);
+            height: 300px;
+            display: flex;
+            
+        }
+        .threesection{
+            border: 1px solid  white;
+            padding: 0px 10px;
+
+        }
+        .gorib{
+            background-color: bisque;
+            padding: 20px; 
+            /* display: inline; */
+
+        }
+        .gorib2{
+            background-color: aquamarine;
+            padding: 20px;
+            /* display: inline; */
+        }
+        .inpute{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="sec">
+        <div class="threesection">
+            <h1>dipojit</h1>
+            <h1 id="dipojit-amount">000</h1>
+        </div>
+        <div class="threesection">
+            <h1>widrow</h1>
+            <h1 id="widrow-amount">000</h1>
+        </div>
+        <div class="threesection">
+            <h1>Blance</h1>
+            <h1 id="total-blace">600</h1>
+        </div>
+
+    </div>
+    <div class="inpute">
+        <div class="gorib">
+            <label for="">dipojit</label>
+            <input type="text" id="user-dipojit">
+           
+            <button id="dipojit-button">Submite</button>
+        </div>
+        <div class="gorib2">
+            <label for="">widrow</label>
+            <input type="text" id="user-widrow">
+           
+            <button id="widrow-button">Submite</button>
+        </div>
+    </div>
+    <script src="./widrow.js"></script>
+</body>
+</html>

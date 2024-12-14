@@ -1,0 +1,18 @@
+.dubolsection{
+    width: 100%;
+    background-color: aqua;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.sections1{
+    
+    width: 50%;
+    background-color: rgb(49, 228, 228);
+}
+.sections2{
+width:50%;
+background-color: blueviolet;
+}
